@@ -23,6 +23,6 @@ class MailSenderTest {
 
     @Test
     void sendMail() {
-        Assertions.assertTrue(mailSender.sendMail());
+        Assertions.assertTrue(false);//(mailSender.sendMail());
     }
 }
